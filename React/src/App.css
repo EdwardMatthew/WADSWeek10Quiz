@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+	display: flex;
+	margin-top: 5rem;
+	justify-content: center;
+} 
+
+input {
+	display: block;
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c5c5c5;
+}
+
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36a936;
 }
 
 body {
@@ -28,11 +60,13 @@ a {
 }
 
 .herodata h2 {
+	font-family: Arial, Helvetica, sans-serif;
 	height: 200;
 	line-height: 50px;
-	border-left: 10px solid blue;
-	background-color: lightblue;
-	align-items: center;
+	border-left: 10px solid darkorange;
+	background-color: black;
+	color: darkorange;
 	display: flex;
+	text-align: center;
 	justify-content: center;
 }
